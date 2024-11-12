@@ -52,7 +52,6 @@ const EditProfilePage = () => {
           display="flex"
           alignItems="center"
         >
-          {/* Ikon panah kembali di kiri judul */}
           <IconButton
             icon={<ArrowBackIcon />}
             onClick={handleBackToTasks}
@@ -102,7 +101,7 @@ const EditProfilePage = () => {
                   value={avatar} 
                   onChange={(e) => setAvatar(e.target.value)} 
                   placeholder="Enter profile image URL" 
-                  width={{ base: '100%', sm: '270%', md: '300%' }}  // Sesuaikan panjang input
+                  width={{ base: '100%', sm: '270%', md: '300%' }}  
                   bg="white"  
                   borderColor="gray.300"  
                   _hover={{ borderColor: 'blue.400' }} 
@@ -118,8 +117,7 @@ const EditProfilePage = () => {
                   value={name} 
                   onChange={(e) => setName(e.target.value)} 
                   placeholder="Enter your name" 
-                  width={{ base: '100%', sm: '270%', md: '300%' }} // Sesuaikan panjang input
-                  bg="white"
+                  width={{ base: '100%', sm: '270%', md: '300%' }}
                   borderColor="gray.300"
                   _hover={{ borderColor: 'blue.400' }}
                   _focus={{ borderColor: 'blue.500', boxShadow: '0 0 0 1px #3182ce' }}
@@ -134,7 +132,7 @@ const EditProfilePage = () => {
                   value={email} 
                   onChange={(e) => setEmail(e.target.value)} 
                   placeholder="Enter your email" 
-                  width={{ base: '100%', sm: '270%', md: '300%' }} // Sesuaikan panjang input
+                  width={{ base: '100%', sm: '270%', md: '300%' }} 
                   bg="white"
                   borderColor="gray.300"
                   _hover={{ borderColor: 'blue.400' }}
@@ -150,7 +148,7 @@ const EditProfilePage = () => {
                   value={password} 
                   onChange={(e) => setPassword(e.target.value)} 
                   placeholder="Enter your password" 
-                  width={{ base: '100%', sm: '270%', md: '300%' }} // Sesuaikan panjang input
+                  width={{ base: '100%', sm: '270%', md: '300%' }} 
                   bg="white"
                   borderColor="gray.300"
                   _hover={{ borderColor: 'blue.400' }}
@@ -162,7 +160,7 @@ const EditProfilePage = () => {
                 <Button 
                   type="submit" 
                   colorScheme="blue" 
-                  width="100%" // Atur lebar tombol, misalnya 50% dari lebar kontainer
+                  width="100%" 
                   mx="auto"
                   display="block"
                 >

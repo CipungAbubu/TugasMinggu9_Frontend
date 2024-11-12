@@ -51,7 +51,7 @@ const Login = () => {
         borderRadius="8px"
         boxShadow="0 4px 6px rgba(0, 0, 0, 0.1)"
         overflow="hidden"
-        mr={{ base: '0', md: '20px' }}  // Menambahkan margin kanan untuk jarak antara box luar dan box form login
+        mr={{ base: '0', md: '20px' }}  
       >
         {/* Box untuk Gambar */}
         <Box
@@ -64,8 +64,8 @@ const Login = () => {
             src={gambar1}
             alt="Login Image"
             objectFit="cover"
-            width="100%" // Membuat gambar memenuhi lebar box
-            height="100%" // Membuat gambar memenuhi tinggi box
+            width="100%"
+            height="100%" 
           />
         </Box>
 
@@ -76,7 +76,7 @@ const Login = () => {
           bg="white"
           borderRadius={{ base: '0 0 8px 8px', md: '0 8px 8px 0' }}
           boxShadow={{ base: 'none', md: '0 4px 6px rgba(0, 0, 0, 0.1)' }}
-          mr={{ base: '0', md: '20px' }} // Menambahkan margin kanan untuk jarak antara box form login dan box luar
+          mr={{ base: '0', md: '20px' }} 
         >
           <Heading
             textAlign="center"
